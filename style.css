@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color:#4D693A;
+  font-style: normal;
+  text-align: center;
+  background-image: url("teletubbies40.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#navbar  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navbutton {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-top: 2px;
+  text-decoration: none;
+}
+/*page four contact form*/
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.leftalign {
+text-align:left
+}
